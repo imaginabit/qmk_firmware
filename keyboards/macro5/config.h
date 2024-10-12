@@ -19,3 +19,21 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 * THE SOFTWARE.
 */
+
+
+#pragma once
+
+// Define the keyboard name and settings
+// #define DIODE_DIRECTION COL2ROW  // Diode direction
+#define MATRIX_ROWS 1             // Number of rows
+#define MATRIX_COLS 5             // Number of columns
+
+// Define matrix pins
+#define MATRIX_PINS \
+    { GP3, \
+      GP10, GP9,\
+      GP11, GP12, GP13 }  // Adjust according to your setup
+
+// Enable features
+// #define BOOTMAGIC_ENABLE      // Enable Bootmagic
+#define NKRO                  // Enable N-Key Rollover
